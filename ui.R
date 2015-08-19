@@ -7,7 +7,7 @@ fluidPage(
   
   sidebarPanel(
     h4("Introduction: this simple simulation will try to show that if we have enough sample, the sample distribution will be close to the theoretical distribution."),
-    h4("To use this application, please specify the number of sample by moving the slider to a specific number between 500 to 10000."),
+    h4("To use this application, please specify the number of sample by moving the slider to a number between 500 to 10000 (increment of 500). "),
     
     h4("There are two check boxes, the first one corresponds to the sample distribution and the second one corresponds to the theoretical distribution."),
     h4("Specify the sampleSize using the slider below."),
