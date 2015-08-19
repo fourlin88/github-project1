@@ -13,12 +13,12 @@ fluidPage(
     h4("Specify the sampleSize using the slider below."),
     sliderInput('sampleSize', 'Sample Size', min=500, max=10000,
                 value=1000, step=500, round=0),
-
     h4("Tick the following box to show the corresponding distribution graph."),
     checkboxInput('sample', 'Show Sample Distribution'),
     checkboxInput('normal', 'Show Theoretical Distribution'),
-    
-    h5("Note that the source code can be found on https://github.com/fourlin88/github-project1/")
+    h5("Note that the source code can be found on"),
+    tags$a(href="https://github.com/fourlin88/github-project1/", "https://github.com/fourlin88/github-project1/"),
+    h6("Created by fourlin88 @ 2015.")
   ),
   
   mainPanel(
