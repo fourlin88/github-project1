@@ -1,8 +1,6 @@
 library(shiny)
 library(ggplot2)
 
-dataset <- diamonds
-
 fluidPage(
   
   titlePanel("Simulation To Compare Exponential Distribution and Central Limit Theorem"),
