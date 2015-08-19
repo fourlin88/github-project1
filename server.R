@@ -3,9 +3,6 @@ library(ggplot2)
 
 function(input, output) {
   
-  dataset <- reactive({
-    diamonds[sample(nrow(diamonds), input$sampleSize),]
-  })
   
   output$plot <- renderPlot({
     
